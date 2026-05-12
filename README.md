@@ -176,50 +176,6 @@ Output is in `dist/`, ready to deploy to any static file host.
 
 ---
 
-## Data Model
-
-```typescript
-interface User {
-  name: string;
-  password: string;
-}
-
-interface Subject {
-  id: string;
-  name: string;
-  description?: string;
-  color: 'blue' | 'teal' | 'amber' | 'emerald' | 'purple' | 'rose';
-  createdAt: string;
-}
-
-interface Flashcard {
-  id: string;
-  subjectId: string;
-  front: string;
-  back: string;
-  createdAt: string;
-}
-
-interface Exam {
-  id: string;
-  subjectId: string;
-  date: string;
-  createdAt: string;
-}
-```
-
-### localStorage Keys
-
-```
-notegenius-accounts                     — User[]
-notegenius-{username}-subjects          — Subject[]
-notegenius-{username}-cards             — Flashcard[]
-notegenius-{username}-exams             — Exam[]
-notegenius-{username}-pomodoro-sessions — number
-theme                                   — 'light' | 'dark'
-```
-
----
 
 ## Notes
 
