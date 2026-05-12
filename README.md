@@ -1,5 +1,3 @@
-
-
 ## The application is deployed on Netlify.
 
 Live URL: https://notegeniuswebapp.netlify.app/
