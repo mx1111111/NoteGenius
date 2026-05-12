@@ -1,4 +1,15 @@
-export type SubjectColor = "blue" | "teal" | "amber" | "emerald" | "purple" | "rose";
+export type SubjectColor =
+  | "blue"
+  | "teal"
+  | "amber"
+  | "emerald"
+  | "purple"
+  | "rose";
+
+export interface User {
+  name: string;
+  password: string;
+}
 
 export interface Subject {
   id: string;
