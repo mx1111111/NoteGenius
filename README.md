@@ -13,7 +13,6 @@ A client-side study management application built with React and TypeScript. Orga
 - [Application Workflow](#application-workflow)
 - [Getting Started](#getting-started)
 - [Usage Guide](#usage-guide)
-- [Data Model](#data-model)
 - [Notes](#notes)
 
 ---
