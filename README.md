@@ -4,6 +4,12 @@ A client-side study management application built with React and TypeScript. Orga
 
 ---
 
+## Deployment
+
+The application is deployed on Netlify.
+
+Live URL: https://notegeniuswebapp.netlify.app/
+
 ## Table of Contents
 
 - [Overview](#overview)
