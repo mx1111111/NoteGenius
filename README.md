@@ -1,9 +1,3 @@
-## The application is deployed on Netlify.
-
-Live URL: https://notegeniuswebapp.netlify.app/
-
-
-
 # NoteGenius
 
 A client-side study management application built with React and TypeScript. Organize subjects, create flashcards, schedule exams, and track study sessions — all stored locally in the browser with no backend required.
