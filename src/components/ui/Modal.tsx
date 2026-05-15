@@ -8,6 +8,9 @@ interface ModalProps {
   children: ReactNode;
 }
 
+
+ 
+
 export function Modal({ open, onClose, title, children }: ModalProps) {
   useEffect(() => {
     if (!open) return;

@@ -181,3 +181,5 @@ Output is in `dist/`, ready to deploy to any static file host.
 - Clearing browser storage will permanently erase all accounts and data.
 - Passwords are stored in plaintext — this is intentional for a local-only demo. For a production deployment, hash passwords server-side before storage.
 - The application works fully offline once loaded in the browser.
+
+
